@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercicio 3</title>
+	<script src="libs/jquery/jquery-3.5.1.min.js"></script>
+	<script src="libs/jquery-numeric/jquery.numeric.js"></script>
+
+	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="libs/bootstrap/css/bootstrap.min.css">
+
+	<script src="libs/accounting/js/accounting.js"></script>
+
+	<script src="assets/js/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body class="conteudo">
+	<div class="form-group">
+   	<label>Qtd. Litros</label>
+		<input type="text" id="litros" class="form-control numeric" placeholder="0.0">
+	</div>
+	<div class="form-group">
+   	<label>Tipo Combustivel</label>
+		<select id="tipoCombustivel" class="form-control">
+			<option value="A">Álcool</option>
+			<option value="G">Gasolina</option>
+		</select>
+	</div>
+	<div class="form-group">
+		<button id="calcular" class="form-control btn btn-info">Calcular Valor</button>
+	</div>
+	
+	Valor: <span id="valorPagar">-</span>
+
+</body>
+</html>

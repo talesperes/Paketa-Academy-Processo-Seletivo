@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercicio 1</title>
+	<script src="libs/jquery/jquery-3.5.1.min.js"></script>
+	<script src="libs/jquery-numeric/jquery.numeric.js"></script>
+
+	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="libs/bootstrap/css/bootstrap.min.css">
+
+	<script src="assets/js/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+<div class="conteudo">
+
+	<div class="form-group">
+   	<label>Código Aluno</label>
+   	<input type="text" class="form-control" id="codigo">
+	</div>
+
+	<div class="form-group">
+   	<label>Nota 1</label>
+   	<input type="text" class="form-control numeric" name="nota" placeholder="0.0">
+	</div>
+
+	<div class="form-group">
+   	<label>Nota 2</label>
+   	<input type="text" class="form-control numeric" name="nota" placeholder="0.0">
+	</div>
+
+	<div class="form-group">
+   	<label>Nota 3</label>
+   	<input type="text" class="form-control numeric" name="nota" placeholder="0.0">
+	</div>
+
+	<div class="form-group">
+		<button id="calcular" class="btn btn-info form-control">Calcular Média</button>
+	</div>
+
+	Código: <span id="codigoAluno">-</span><br>
+	Nota 1: <span id="nota1">-</span><br>
+	Nota 2: <span id="nota2">-</span><br>
+	Nota 3: <span id="nota3">-</span><br>
+	Média: <span id="mediaFinal">-</span><br>
+	Status: <span id="status">-</span>
+
+</div>
+</body>
+</html>
